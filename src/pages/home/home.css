@@ -1,0 +1,19 @@
+div.home{
+    background-color: rgb(224, 224, 224);
+}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+div.header{
+    padding: 5px;
+    text-align: center;
+    background: #02735E;
+    color: white;
+    font-size: 20px;
+}
+
