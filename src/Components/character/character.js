@@ -8,16 +8,12 @@ const Character = (props) =>{
     return (
         <React.Fragment>
             <div className="Character__container">
-                <Link
-                    className="Character__image"
-                    to={`/character/${character.id}`}
-                >
+            
                     <img
                         className="Character__image"
                         src={character.image}
-                        alt={character.name}
                     />
-                </Link>
+        
                 <div className="Character__data">
                     <h3 className="Character__name">{character.name}</h3>
                     <p className="Character__status">{character.status}</p>
